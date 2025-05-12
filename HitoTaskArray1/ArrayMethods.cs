@@ -4,7 +4,6 @@ namespace HitoTaskArray1;
 
 public class ArrayMethods
 {
-        // Вывести массив на экран.
         public static void PrintArray(int[,] array)
         {
             for (int i = 0; i < array.GetLength(0); i++)
@@ -17,7 +16,6 @@ public class ArrayMethods
             }
         }
 
-        // Скопировать существующий массив в новый.
         public static int[,] CopyArray(int[,] array)
         {
             int[,] copiedArray = new int[array.GetLength(0), array.GetLength(1)];
@@ -35,7 +33,6 @@ public class ArrayMethods
             return copiedArray;
         }
         
-        // Создать двумерный массив на основе заданных параметров.
         public static int[,] CreateArray(int linesCount, int columnsCount)
         {
             Random random = new Random();
@@ -52,7 +49,6 @@ public class ArrayMethods
             return arrayNumbers;
         }
 
-        // Перевернуть массив.
         public static int[,] ReverseArray(int[,] array)
         {
             int[,] reversedArray = CopyArray(array);
@@ -73,7 +69,6 @@ public class ArrayMethods
             return reversedArray;
         }
 
-        // Повернуть массив на 90° градусов против часовой стрелки.
         public static int[,] Rotate90Counterclockwise(int[,] array)
         {
             int[,] rotatedArray = CopyArray(array);
@@ -94,7 +89,6 @@ public class ArrayMethods
             return rotatedArray;
         }
         
-        // Повернуть массив на 90 градусов по часовой стрелке.
         public static int[,] Rotate90Clockwise(int[,] array)
         {
             int[,] rotatedArray = CopyArray(array);

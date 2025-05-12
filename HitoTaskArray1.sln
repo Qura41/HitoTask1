@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HitoTaskArray1", "HitoTaskArray1\HitoTaskArray1.csproj", "{DF6FC95C-3BE6-48D7-A75C-30AFA092FBFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest.Tests", "UnitTest.Tests\UnitTest.Tests.csproj", "{9712E1A8-46C1-4FB9-BEEF-47F7FDC686EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF6FC95C-3BE6-48D7-A75C-30AFA092FBFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF6FC95C-3BE6-48D7-A75C-30AFA092FBFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF6FC95C-3BE6-48D7-A75C-30AFA092FBFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF6FC95C-3BE6-48D7-A75C-30AFA092FBFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9712E1A8-46C1-4FB9-BEEF-47F7FDC686EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9712E1A8-46C1-4FB9-BEEF-47F7FDC686EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9712E1A8-46C1-4FB9-BEEF-47F7FDC686EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9712E1A8-46C1-4FB9-BEEF-47F7FDC686EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
